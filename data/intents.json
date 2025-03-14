@@ -1,0 +1,1816 @@
+{
+  "intents": [
+    {
+      "tag": "bulbizarre",
+      "patterns": [
+        "Quel est le type de Bulbizarre ?",
+        "Dis-moi le type de Bulbizarre",
+        "Bulbizarre est de quel type ?",
+        "Type de Bulbizarre"
+      ],
+      "responses": [
+        "Bulbizarre est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "herbizarre",
+      "patterns": [
+        "Quel est le type de Herbizarre ?",
+        "Dis-moi le type de Herbizarre",
+        "Herbizarre est de quel type ?",
+        "Type de Herbizarre"
+      ],
+      "responses": [
+        "Herbizarre est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "florizarre",
+      "patterns": [
+        "Quel est le type de Florizarre ?",
+        "Dis-moi le type de Florizarre",
+        "Florizarre est de quel type ?",
+        "Type de Florizarre"
+      ],
+      "responses": [
+        "Florizarre est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "salamèche",
+      "patterns": [
+        "Quel est le type de Salamèche ?",
+        "Dis-moi le type de Salamèche",
+        "Salamèche est de quel type ?",
+        "Type de Salamèche"
+      ],
+      "responses": [
+        "Salamèche est de type Feu."
+      ]
+    },
+    {
+      "tag": "reptincel",
+      "patterns": [
+        "Quel est le type de Reptincel ?",
+        "Dis-moi le type de Reptincel",
+        "Reptincel est de quel type ?",
+        "Type de Reptincel"
+      ],
+      "responses": [
+        "Reptincel est de type Feu."
+      ]
+    },
+    {
+      "tag": "dracaufeu",
+      "patterns": [
+        "Quel est le type de Dracaufeu ?",
+        "Dis-moi le type de Dracaufeu",
+        "Dracaufeu est de quel type ?",
+        "Type de Dracaufeu"
+      ],
+      "responses": [
+        "Dracaufeu est de type Feu et Vol."
+      ]
+    },
+    {
+      "tag": "carapuce",
+      "patterns": [
+        "Quel est le type de Carapuce ?",
+        "Dis-moi le type de Carapuce",
+        "Carapuce est de quel type ?",
+        "Type de Carapuce"
+      ],
+      "responses": [
+        "Carapuce est de type Eau."
+      ]
+    },
+    {
+      "tag": "carabaffe",
+      "patterns": [
+        "Quel est le type de Carabaffe ?",
+        "Dis-moi le type de Carabaffe",
+        "Carabaffe est de quel type ?",
+        "Type de Carabaffe"
+      ],
+      "responses": [
+        "Carabaffe est de type Eau."
+      ]
+    },
+    {
+      "tag": "tortank",
+      "patterns": [
+        "Quel est le type de Tortank ?",
+        "Dis-moi le type de Tortank",
+        "Tortank est de quel type ?",
+        "Type de Tortank"
+      ],
+      "responses": [
+        "Tortank est de type Eau."
+      ]
+    },
+    {
+      "tag": "chenipan",
+      "patterns": [
+        "Quel est le type de Chenipan ?",
+        "Dis-moi le type de Chenipan",
+        "Chenipan est de quel type ?",
+        "Type de Chenipan"
+      ],
+      "responses": [
+        "Chenipan est de type Insecte."
+      ]
+    },
+    {
+      "tag": "chrysacier",
+      "patterns": [
+        "Quel est le type de Chrysacier ?",
+        "Dis-moi le type de Chrysacier",
+        "Chrysacier est de quel type ?",
+        "Type de Chrysacier"
+      ],
+      "responses": [
+        "Chrysacier est de type Insecte."
+      ]
+    },
+    {
+      "tag": "papilusion",
+      "patterns": [
+        "Quel est le type de Papilusion ?",
+        "Dis-moi le type de Papilusion",
+        "Papilusion est de quel type ?",
+        "Type de Papilusion"
+      ],
+      "responses": [
+        "Papilusion est de type Insecte et Vol."
+      ]
+    },
+    {
+      "tag": "aspicot",
+      "patterns": [
+        "Quel est le type d'Aspicot ?",
+        "Dis-moi le type d'Aspicot",
+        "Aspicot est de quel type ?",
+        "Type d'Aspicot"
+      ],
+      "responses": [
+        "Aspicot est de type Insecte et Poison."
+      ]
+    },
+    {
+      "tag": "coconfort",
+      "patterns": [
+        "Quel est le type de Coconfort ?",
+        "Dis-moi le type de Coconfort",
+        "Coconfort est de quel type ?",
+        "Type de Coconfort"
+      ],
+      "responses": [
+        "Coconfort est de type Insecte et Poison."
+      ]
+    },
+    {
+      "tag": "dardargnan",
+      "patterns": [
+        "Quel est le type de Dardargnan ?",
+        "Dis-moi le type de Dardargnan",
+        "Dardargnan est de quel type ?",
+        "Type de Dardargnan"
+      ],
+      "responses": [
+        "Dardargnan est de type Insecte et Poison."
+      ]
+    },
+    {
+      "tag": "roucool",
+      "patterns": [
+        "Quel est le type de Roucool ?",
+        "Dis-moi le type de Roucool",
+        "Roucool est de quel type ?",
+        "Type de Roucool"
+      ],
+      "responses": [
+        "Roucool est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "roucoups",
+      "patterns": [
+        "Quel est le type de Roucoups ?",
+        "Dis-moi le type de Roucoups",
+        "Roucoups est de quel type ?",
+        "Type de Roucoups"
+      ],
+      "responses": [
+        "Roucoups est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "roucarnage",
+      "patterns": [
+        "Quel est le type de Roucarnage ?",
+        "Dis-moi le type de Roucarnage",
+        "Roucarnage est de quel type ?",
+        "Type de Roucarnage"
+      ],
+      "responses": [
+        "Roucarnage est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "rattata",
+      "patterns": [
+        "Quel est le type de Rattata ?",
+        "Dis-moi le type de Rattata",
+        "Rattata est de quel type ?",
+        "Type de Rattata"
+      ],
+      "responses": [
+        "Rattata est de type Normal."
+      ]
+    },
+    {
+      "tag": "rattatac",
+      "patterns": [
+        "Quel est le type de Rattatac ?",
+        "Dis-moi le type de Rattatac",
+        "Rattatac est de quel type ?",
+        "Type de Rattatac"
+      ],
+      "responses": [
+        "Rattatac est de type Normal."
+      ]
+    },
+    {
+      "tag": "piafabec",
+      "patterns": [
+        "Quel est le type de Piafabec ?",
+        "Dis-moi le type de Piafabec",
+        "Piafabec est de quel type ?",
+        "Type de Piafabec"
+      ],
+      "responses": [
+        "Piafabec est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "rapasdepic",
+      "patterns": [
+        "Quel est le type de Rapasdepic ?",
+        "Dis-moi le type de Rapasdepic",
+        "Rapasdepic est de quel type ?",
+        "Type de Rapasdepic"
+      ],
+      "responses": [
+        "Rapasdepic est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "abo",
+      "patterns": [
+        "Quel est le type d'Abo ?",
+        "Dis-moi le type d'Abo",
+        "Abo est de quel type ?",
+        "Type d'Abo"
+      ],
+      "responses": [
+        "Abo est de type Poison."
+      ]
+    },
+    {
+      "tag": "arbok",
+      "patterns": [
+        "Quel est le type d'Arbok ?",
+        "Dis-moi le type d'Arbok",
+        "Arbok est de quel type ?",
+        "Type d'Arbok"
+      ],
+      "responses": [
+        "Arbok est de type Poison."
+      ]
+    },
+    {
+      "tag": "pikachu",
+      "patterns": [
+        "Quel est le type de Pikachu ?",
+        "Dis-moi le type de Pikachu",
+        "Pikachu est de quel type ?",
+        "Type de Pikachu"
+      ],
+      "responses": [
+        "Pikachu est de type Électrik."
+      ]
+    },
+    {
+      "tag": "raichu",
+      "patterns": [
+        "Quel est le type de Raichu ?",
+        "Dis-moi le type de Raichu",
+        "Raichu est de quel type ?",
+        "Type de Raichu"
+      ],
+      "responses": [
+        "Raichu est de type Électrik."
+      ]
+    },
+    {
+      "tag": "sabelette",
+      "patterns": [
+        "Quel est le type de Sabelette ?",
+        "Dis-moi le type de Sabelette",
+        "Sabelette est de quel type ?",
+        "Type de Sabelette"
+      ],
+      "responses": [
+        "Sabelette est de type Sol."
+      ]
+    },
+    {
+      "tag": "sablaireau",
+      "patterns": [
+        "Quel est le type de Sablaireau ?",
+        "Dis-moi le type de Sablaireau",
+        "Sablaireau est de quel type ?",
+        "Type de Sablaireau"
+      ],
+      "responses": [
+        "Sablaireau est de type Sol."
+      ]
+    },
+    {
+      "tag": "nidoran♀",
+      "patterns": [
+        "Quel est le type de Nidoran♀ ?",
+        "Dis-moi le type de Nidoran♀",
+        "Nidoran♀ est de quel type ?",
+        "Type de Nidoran♀"
+      ],
+      "responses": [
+        "Nidoran♀ est de type Poison."
+      ]
+    },
+    {
+      "tag": "nidorina",
+      "patterns": [
+        "Quel est le type de Nidorina ?",
+        "Dis-moi le type de Nidorina",
+        "Nidorina est de quel type ?",
+        "Type de Nidorina"
+      ],
+      "responses": [
+        "Nidorina est de type Poison."
+      ]
+    },
+    {
+      "tag": "nidoqueen",
+      "patterns": [
+        "Quel est le type de Nidoqueen ?",
+        "Dis-moi le type de Nidoqueen",
+        "Nidoqueen est de quel type ?",
+        "Type de Nidoqueen"
+      ],
+      "responses": [
+        "Nidoqueen est de type Poison et Sol."
+      ]
+    },
+    {
+      "tag": "nidoran♂",
+      "patterns": [
+        "Quel est le type de Nidoran♂ ?",
+        "Dis-moi le type de Nidoran♂",
+        "Nidoran♂ est de quel type ?",
+        "Type de Nidoran♂"
+      ],
+      "responses": [
+        "Nidoran♂ est de type Poison."
+      ]
+    },
+    {
+      "tag": "nidorino",
+      "patterns": [
+        "Quel est le type de Nidorino ?",
+        "Dis-moi le type de Nidorino",
+        "Nidorino est de quel type ?",
+        "Type de Nidorino"
+      ],
+      "responses": [
+        "Nidorino est de type Poison."
+      ]
+    },
+    {
+      "tag": "nidoking",
+      "patterns": [
+        "Quel est le type de Nidoking ?",
+        "Dis-moi le type de Nidoking",
+        "Nidoking est de quel type ?",
+        "Type de Nidoking"
+      ],
+      "responses": [
+        "Nidoking est de type Poison et Sol."
+      ]
+    },
+    {
+      "tag": "mélofée",
+      "patterns": [
+        "Quel est le type de Mélofée ?",
+        "Dis-moi le type de Mélofée",
+        "Mélofée est de quel type ?",
+        "Type de Mélofée"
+      ],
+      "responses": [
+        "Mélofée est de type Fée."
+      ]
+    },
+    {
+      "tag": "mélodelfe",
+      "patterns": [
+        "Quel est le type de Mélodelfe ?",
+        "Dis-moi le type de Mélodelfe",
+        "Mélodelfe est de quel type ?",
+        "Type de Mélodelfe"
+      ],
+      "responses": [
+        "Mélodelfe est de type Fée."
+      ]
+    },
+    {
+      "tag": "goupix",
+      "patterns": [
+        "Quel est le type de Goupix ?",
+        "Dis-moi le type de Goupix",
+        "Goupix est de quel type ?",
+        "Type de Goupix"
+      ],
+      "responses": [
+        "Goupix est de type Feu."
+      ]
+    },
+    {
+      "tag": "feunard",
+      "patterns": [
+        "Quel est le type de Feunard ?",
+        "Dis-moi le type de Feunard",
+        "Feunard est de quel type ?",
+        "Type de Feunard"
+      ],
+      "responses": [
+        "Feunard est de type Feu."
+      ]
+    },
+    {
+      "tag": "rondoudou",
+      "patterns": [
+        "Quel est le type de Rondoudou ?",
+        "Dis-moi le type de Rondoudou",
+        "Rondoudou est de quel type ?",
+        "Type de Rondoudou"
+      ],
+      "responses": [
+        "Rondoudou est de type Normal et Fée."
+      ]
+    },
+    {
+      "tag": "grodoudou",
+      "patterns": [
+        "Quel est le type de Grodoudou ?",
+        "Dis-moi le type de Grodoudou",
+        "Grodoudou est de quel type ?",
+        "Type de Grodoudou"
+      ],
+      "responses": [
+        "Grodoudou est de type Normal et Fée."
+      ]
+    },
+    {
+      "tag": "nosferapti",
+      "patterns": [
+        "Quel est le type de Nosferapti ?",
+        "Dis-moi le type de Nosferapti",
+        "Nosferapti est de quel type ?",
+        "Type de Nosferapti"
+      ],
+      "responses": [
+        "Nosferapti est de type Poison et Vol."
+      ]
+    },
+    {
+      "tag": "nosferalto",
+      "patterns": [
+        "Quel est le type de Nosferalto ?",
+        "Dis-moi le type de Nosferalto",
+        "Nosferalto est de quel type ?",
+        "Type de Nosferalto"
+      ],
+      "responses": [
+        "Nosferalto est de type Poison et Vol."
+      ]
+    },
+    {
+      "tag": "mystherbe",
+      "patterns": [
+        "Quel est le type de Mystherbe ?",
+        "Dis-moi le type de Mystherbe",
+        "Mystherbe est de quel type ?",
+        "Type de Mystherbe"
+      ],
+      "responses": [
+        "Mystherbe est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "ortide",
+      "patterns": [
+        "Quel est le type d'Ortide ?",
+        "Dis-moi le type d'Ortide",
+        "Ortide est de quel type ?",
+        "Type d'Ortide"
+      ],
+      "responses": [
+        "Ortide est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "rafflesia",
+      "patterns": [
+        "Quel est le type de Rafflesia ?",
+        "Dis-moi le type de Rafflesia",
+        "Rafflesia est de quel type ?",
+        "Type de Rafflesia"
+      ],
+      "responses": [
+        "Rafflesia est de type Plante et Poison."
+      ]
+    },
+    {
+      "tag": "paras",
+      "patterns": [
+        "Quel est le type de Paras ?",
+        "Dis-moi le type de Paras",
+        "Paras est de quel type ?",
+        "Type de Paras"
+      ],
+      "responses": [
+        "Paras est de type Insecte et Plante."
+      ]
+    },
+    {
+      "tag": "parasect",
+      "patterns": [
+        "Quel est le type de Parasect ?",
+        "Dis-moi le type de Parasect",
+        "Parasect est de quel type ?",
+        "Type de Parasect"
+      ],
+      "responses": [
+        "Parasect est de type Insecte et Plante."
+      ]
+    },
+    {
+      "tag": "mimitoss",
+      "patterns": [
+        "Quel est le type de Mimitoss ?",
+        "Dis-moi le type de Mimitoss",
+        "Mimitoss est de quel type ?",
+        "Type de Mimitoss"
+      ],
+      "responses": [
+        "Mimitoss est de type Insecte et Poison."
+      ]
+    },
+    {
+      "tag": "aéromite",
+      "patterns": [
+        "Quel est le type d'Aéromite ?",
+        "Dis-moi le type d'Aéromite",
+        "Aéromite est de quel type ?",
+        "Type d'Aéromite"
+      ],
+      "responses": [
+        "Aéromite est de type Insecte et Poison."
+      ]
+    },
+    {
+      "tag": "taupiqueur",
+      "patterns": [
+        "Quel est le type de Taupiqueur ?",
+        "Dis-moi le type de Taupiqueur",
+        "Taupiqueur est de quel type ?",
+        "Type de Taupiqueur"
+      ],
+      "responses": [
+        "Taupiqueur est de type Sol."
+      ]
+    },
+    {
+      "tag": "triopikeur",
+      "patterns": [
+        "Quel est le type de Triopikeur ?",
+        "Dis-moi le type de Triopikeur",
+        "Triopikeur est de quel type ?",
+        "Type de Triopikeur"
+      ],
+      "responses": [
+        "Triopikeur est de type Sol."
+      ]
+    },
+    {
+      "tag": "miaouss",
+      "patterns": [
+        "Quel est le type de Miaouss ?",
+        "Dis-moi le type de Miaouss",
+        "Miaouss est de quel type ?",
+        "Type de Miaouss"
+      ],
+      "responses": [
+        "Miaouss est de type Normal."
+      ]
+    },
+    {
+      "tag": "persian",
+      "patterns": [
+        "Quel est le type de Persian ?",
+        "Dis-moi le type de Persian",
+        "Persian est de quel type ?",
+        "Type de Persian"
+      ],
+      "responses": [
+        "Persian est de type Normal."
+      ]
+    },
+    {
+      "tag": "psykokwak",
+      "patterns": [
+        "Quel est le type de Psykokwak ?",
+        "Dis-moi le type de Psykokwak",
+        "Psykokwak est de quel type ?",
+        "Type de Psykokwak"
+      ],
+      "responses": [
+        "Psykokwak est de type Eau."
+      ]
+    },
+    {
+      "tag": "akwakwak",
+      "patterns": [
+        "Quel est le type d'Akwakwak ?",
+        "Dis-moi le type d'Akwakwak",
+        "Akwakwak est de quel type ?",
+        "Type d'Akwakwak"
+      ],
+      "responses": [
+        "Akwakwak est de type Eau."
+      ]
+    },
+    {
+      "tag": "férosinge",
+      "patterns": [
+        "Quel est le type de Férosinge ?",
+        "Dis-moi le type de Férosinge",
+        "Férosinge est de quel type ?",
+        "Type de Férosinge"
+      ],
+      "responses": [
+        "Férosinge est de type Combat."
+      ]
+    },
+    {
+      "tag": "colossinge",
+      "patterns": [
+        "Quel est le type de Colossinge ?",
+        "Dis-moi le type de Colossinge",
+        "Colossinge est de quel type ?",
+        "Type de Colossinge"
+      ],
+      "responses": [
+        "Colossinge est de type Combat."
+      ]
+    },
+    {
+      "tag": "caninos",
+      "patterns": [
+        "Quel est le type de Caninos ?",
+        "Dis-moi le type de Caninos",
+        "Caninos est de quel type ?",
+        "Type de Caninos"
+      ],
+      "responses": [
+        "Caninos est de type Feu."
+      ]
+    },
+    {
+      "tag": "arcanin",
+      "patterns": [
+        "Quel est le type d'Arcanin ?",
+        "Dis-moi le type d'Arcanin",
+        "Arcanin est de quel type ?",
+        "Type d'Arcanin"
+      ],
+      "responses": [
+        "Arcanin est de type Feu."
+      ]
+    },
+    {
+      "tag": "ptitard",
+      "patterns": [
+        "Quel est le type de Ptitard ?",
+        "Dis-moi le type de Ptitard",
+        "Ptitard est de quel type ?",
+        "Type de Ptitard"
+      ],
+      "responses": [
+        "Ptitard est de type Eau."
+      ]
+    },
+    {
+      "tag": "têtarte",
+      "patterns": [
+        "Quel est le type de Têtarte ?",
+        "Dis-moi le type de Têtarte",
+        "Têtarte est de quel type ?",
+        "Type de Têtarte"
+      ],
+      "responses": [
+        "Têtarte est de type Eau."
+      ]
+    },
+    {
+      "tag": "tartard",
+      "patterns": [
+        "Quel est le type de Tartard ?",
+        "Dis-moi le type de Tartard",
+        "Tartard est de quel type ?",
+        "Type de Tartard"
+      ],
+      "responses": [
+        "Tartard est de type Eau et Combat."
+      ]
+    },
+    {
+      "tag": "abra",
+      "patterns": [
+        "Quel est le type d'Abra ?",
+        "Dis-moi le type d'Abra",
+        "Abra est de quel type ?",
+        "Type d'Abra"
+      ],
+      "responses": [
+        "Abra est de type Psy."
+      ]
+    },
+    {
+      "tag": "kadabra",
+      "patterns": [
+        "Quel est le type de Kadabra ?",
+        "Dis-moi le type de Kadabra",
+        "Kadabra est de quel type ?",
+        "Type de Kadabra"
+      ],
+      "responses": [
+        "Kadabra est de type Psy."
+      ]
+    },
+    {
+      "tag": "alakazam",
+      "patterns": [
+        "Quel est le type d'Alakazam ?",
+        "Dis-moi le type d'Alakazam",
+        "Alakazam est de quel type ?",
+        "Type d'Alakazam"
+      ],
+      "responses": [
+        "Alakazam est de type Psy."
+      ]
+    },
+    {
+      "tag": "machoc",
+      "patterns": [
+        "Quel est le type de Machoc ?",
+        "Dis-moi le type de Machoc",
+        "Machoc est de quel type ?",
+        "Type de Machoc"
+      ],
+      "responses": [
+        "Machoc est de type Combat."
+      ]
+    },
+    {
+      "tag": "machopeur",
+      "patterns": [
+        "Quel est le type de Machopeur ?",
+        "Dis-moi le type de Machopeur",
+        "Machopeur est de quel type ?",
+        "Type de Machopeur"
+      ],
+      "responses": [
+        "Machopeur est de type Combat."
+      ]
+    },
+    {
+      "tag": "mackogneur",
+      "patterns": [
+        "Quel est le type de Mackogneur ?",
+        "Dis-moi le type de Mackogneur",
+        "Mackogneur est de quel type ?",
+        "Type de Mackogneur"
+      ],
+      "responses": [
+        "Mackogneur est de type Combat."
+      ]
+    },
+    {
+      "tag": "chétiflor",
+      "patterns": [
+        "Quel est le type de Chétiflor ?",
+        "Dis-moi le type de Chétiflor",
+        "Chétiflor est de quel type ?",
+        "Type de Chétiflor"
+      ],
+      "responses": [
+        "Chétiflor est de type Plante."
+      ]
+    },
+    {
+      "tag": "boustiflor",
+      "patterns": [
+        "Quel est le type de Boustiflor ?",
+        "Dis-moi le type de Boustiflor",
+        "Boustiflor est de quel type ?",
+        "Type de Boustiflor"
+      ],
+      "responses": [
+        "Boustiflor est de type Plante."
+      ]
+    },
+    {
+      "tag": "empiflor",
+      "patterns": [
+        "Quel est le type d'Empiflor ?",
+        "Dis-moi le type d'Empiflor",
+        "Empiflor est de quel type ?",
+        "Type d'Empiflor"
+      ],
+      "responses": [
+        "Empiflor est de type Plante."
+      ]
+    },
+    {
+      "tag": "tentacool",
+      "patterns": [
+        "Quel est le type de Tentacool ?",
+        "Dis-moi le type de Tentacool",
+        "Tentacool est de quel type ?",
+        "Type de Tentacool"
+      ],
+      "responses": [
+        "Tentacool est de type Eau et Poison."
+      ]
+    },
+    {
+      "tag": "tentacruel",
+      "patterns": [
+        "Quel est le type de Tentacruel ?",
+        "Dis-moi le type de Tentacruel",
+        "Tentacruel est de quel type ?",
+        "Type de Tentacruel"
+      ],
+      "responses": [
+        "Tentacruel est de type Eau et Poison."
+      ]
+    },
+    {
+      "tag": "racaillou",
+      "patterns": [
+        "Quel est le type de Racaillou ?",
+        "Dis-moi le type de Racaillou",
+        "Racaillou est de quel type ?",
+        "Type de Racaillou"
+      ],
+      "responses": [
+        "Racaillou est de type Roche et Sol."
+      ]
+    },
+    {
+      "tag": "gravalanch",
+      "patterns": [
+        "Quel est le type de Gravalanch ?",
+        "Dis-moi le type de Gravalanch",
+        "Gravalanch est de quel type ?",
+        "Type de Gravalanch"
+      ],
+      "responses": [
+        "Gravalanch est de type Roche et Sol."
+      ]
+    },
+    {
+      "tag": "grolem",
+      "patterns": [
+        "Quel est le type de Grolem ?",
+        "Dis-moi le type de Grolem",
+        "Grolem est de quel type ?",
+        "Type de Grolem"
+      ],
+      "responses": [
+        "Grolem est de type Roche et Sol."
+      ]
+    },
+    {
+      "tag": "ponyta",
+      "patterns": [
+        "Quel est le type de Ponyta ?",
+        "Dis-moi le type de Ponyta",
+        "Ponyta est de quel type ?",
+        "Type de Ponyta"
+      ],
+      "responses": [
+        "Ponyta est de type Feu."
+      ]
+    },
+    {
+      "tag": "galopa",
+      "patterns": [
+        "Quel est le type de Galopa ?",
+        "Dis-moi le type de Galopa",
+        "Galopa est de quel type ?",
+        "Type de Galopa"
+      ],
+      "responses": [
+        "Galopa est de type Feu."
+      ]
+    },
+    {
+      "tag": "ramoloss",
+      "patterns": [
+        "Quel est le type de Ramoloss ?",
+        "Dis-moi le type de Ramoloss",
+        "Ramoloss est de quel type ?",
+        "Type de Ramoloss"
+      ],
+      "responses": [
+        "Ramoloss est de type Eau et Psy."
+      ]
+    },
+    {
+      "tag": "flagadoss",
+      "patterns": [
+        "Quel est le type de Flagadoss ?",
+        "Dis-moi le type de Flagadoss",
+        "Flagadoss est de quel type ?",
+        "Type de Flagadoss"
+      ],
+      "responses": [
+        "Flagadoss est de type Eau et Psy."
+      ]
+    },
+    {
+      "tag": "magnéti",
+      "patterns": [
+        "Quel est le type de Magnéti ?",
+        "Dis-moi le type de Magnéti",
+        "Magnéti est de quel type ?",
+        "Type de Magnéti"
+      ],
+      "responses": [
+        "Magnéti est de type Électrik et Acier."
+      ]
+    },
+    {
+      "tag": "magnéton",
+      "patterns": [
+        "Quel est le type de Magnéton ?",
+        "Dis-moi le type de Magnéton",
+        "Magnéton est de quel type ?",
+        "Type de Magnéton"
+      ],
+      "responses": [
+        "Magnéton est de type Électrik et Acier."
+      ]
+    },
+    {
+      "tag": "canarticho",
+      "patterns": [
+        "Quel est le type de Canarticho ?",
+        "Dis-moi le type de Canarticho",
+        "Canarticho est de quel type ?",
+        "Type de Canarticho"
+      ],
+      "responses": [
+        "Canarticho est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "doduo",
+      "patterns": [
+        "Quel est le type de Doduo ?",
+        "Dis-moi le type de Doduo",
+        "Doduo est de quel type ?",
+        "Type de Doduo"
+      ],
+      "responses": [
+        "Doduo est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "dodrio",
+      "patterns": [
+        "Quel est le type de Dodrio ?",
+        "Dis-moi le type de Dodrio",
+        "Dodrio est de quel type ?",
+        "Type de Dodrio"
+      ],
+      "responses": [
+        "Dodrio est de type Normal et Vol."
+      ]
+    },
+    {
+      "tag": "otaria",
+      "patterns": [
+        "Quel est le type d'Otaria ?",
+        "Dis-moi le type d'Otaria",
+        "Otaria est de quel type ?",
+        "Type d'Otaria"
+      ],
+      "responses": [
+        "Otaria est de type Eau."
+      ]
+    },
+    {
+      "tag": "lamantine",
+      "patterns": [
+        "Quel est le type de Lamantine ?",
+        "Dis-moi le type de Lamantine",
+        "Lamantine est de quel type ?",
+        "Type de Lamantine"
+      ],
+      "responses": [
+        "Lamantine est de type Eau et Glace."
+      ]
+    },
+    {
+      "tag": "tadmorv",
+      "patterns": [
+        "Quel est le type de Tadmorv ?",
+        "Dis-moi le type de Tadmorv",
+        "Tadmorv est de quel type ?",
+        "Type de Tadmorv"
+      ],
+      "responses": [
+        "Tadmorv est de type Poison."
+      ]
+    },
+    {
+      "tag": "grotadmorv",
+      "patterns": [
+        "Quel est le type de Grotadmorv ?",
+        "Dis-moi le type de Grotadmorv",
+        "Grotadmorv est de quel type ?",
+        "Type de Grotadmorv"
+      ],
+      "responses": [
+        "Grotadmorv est de type Poison."
+      ]
+    },
+    {
+      "tag": "kokiyas",
+      "patterns": [
+        "Quel est le type de Kokiyas ?",
+        "Dis-moi le type de Kokiyas",
+        "Kokiyas est de quel type ?",
+        "Type de Kokiyas"
+      ],
+      "responses": [
+        "Kokiyas est de type Eau."
+      ]
+    },
+    {
+      "tag": "crustabri",
+      "patterns": [
+        "Quel est le type de Crustabri ?",
+        "Dis-moi le type de Crustabri",
+        "Crustabri est de quel type ?",
+        "Type de Crustabri"
+      ],
+      "responses": [
+        "Crustabri est de type Eau et Glace."
+      ]
+    },
+    {
+      "tag": "fantominus",
+      "patterns": [
+        "Quel est le type de Fantominus ?",
+        "Dis-moi le type de Fantominus",
+        "Fantominus est de quel type ?",
+        "Type de Fantominus"
+      ],
+      "responses": [
+        "Fantominus est de type Spectre et Poison."
+      ]
+    },
+    {
+      "tag": "spectrum",
+      "patterns": [
+        "Quel est le type de Spectrum ?",
+        "Dis-moi le type de Spectrum",
+        "Spectrum est de quel type ?",
+        "Type de Spectrum"
+      ],
+      "responses": [
+        "Spectrum est de type Spectre et Poison."
+      ]
+    },
+    {
+      "tag": "ectoplasma",
+      "patterns": [
+        "Quel est le type d'Ectoplasma ?",
+        "Dis-moi le type d'Ectoplasma",
+        "Ectoplasma est de quel type ?",
+        "Type d'Ectoplasma"
+      ],
+      "responses": [
+        "Ectoplasma est de type Spectre et Poison."
+      ]
+    },
+    {
+      "tag": "onix",
+      "patterns": [
+        "Quel est le type d'Onix ?",
+        "Dis-moi le type d'Onix",
+        "Onix est de quel type ?",
+        "Type d'Onix"
+      ],
+      "responses": [
+        "Onix est de type Roche et Sol."
+      ]
+    },
+    {
+      "tag": "soporifik",
+      "patterns": [
+        "Quel est le type de Soporifik ?",
+        "Dis-moi le type de Soporifik",
+        "Soporifik est de quel type ?",
+        "Type de Soporifik"
+      ],
+      "responses": [
+        "Soporifik est de type Psy."
+      ]
+    },
+    {
+      "tag": "hypnomade",
+      "patterns": [
+        "Quel est le type d'Hypnomade ?",
+        "Dis-moi le type d'Hypnomade",
+        "Hypnomade est de quel type ?",
+        "Type d'Hypnomade"
+      ],
+      "responses": [
+        "Hypnomade est de type Psy."
+      ]
+    },
+    {
+      "tag": "krabby",
+      "patterns": [
+        "Quel est le type de Krabby ?",
+        "Dis-moi le type de Krabby",
+        "Krabby est de quel type ?",
+        "Type de Krabby"
+      ],
+      "responses": [
+        "Krabby est de type Eau."
+      ]
+    },
+    {
+      "tag": "krabboss",
+      "patterns": [
+        "Quel est le type de Krabboss ?",
+        "Dis-moi le type de Krabboss",
+        "Krabboss est de quel type ?",
+        "Type de Krabboss"
+      ],
+      "responses": [
+        "Krabboss est de type Eau."
+      ]
+    },
+    {
+      "tag": "voltorbe",
+      "patterns": [
+        "Quel est le type de Voltorbe ?",
+        "Dis-moi le type de Voltorbe",
+        "Voltorbe est de quel type ?",
+        "Type de Voltorbe"
+      ],
+      "responses": [
+        "Voltorbe est de type Électrik."
+      ]
+    },
+    {
+      "tag": "électrode",
+      "patterns": [
+        "Quel est le type d'Électrode ?",
+        "Dis-moi le type d'Électrode",
+        "Électrode est de quel type ?",
+        "Type d'Électrode"
+      ],
+      "responses": [
+        "Électrode est de type Électrik."
+      ]
+    },
+    {
+      "tag": "noeunoeuf",
+      "patterns": [
+        "Quel est le type de Noeunoeuf ?",
+        "Dis-moi le type de Noeunoeuf",
+        "Noeunoeuf est de quel type ?",
+        "Type de Noeunoeuf"
+      ],
+      "responses": [
+        "Noeunoeuf est de type Plante et Psy."
+      ]
+    },
+    {
+      "tag": "noadkoko",
+      "patterns": [
+        "Quel est le type de Noadkoko ?",
+        "Dis-moi le type de Noadkoko",
+        "Noadkoko est de quel type ?",
+        "Type de Noadkoko"
+      ],
+      "responses": [
+        "Noadkoko est de type Plante et Psy."
+      ]
+    },
+    {
+      "tag": "osselait",
+      "patterns": [
+        "Quel est le type d'Osselait ?",
+        "Dis-moi le type d'Osselait",
+        "Osselait est de quel type ?",
+        "Type d'Osselait"
+      ],
+      "responses": [
+        "Osselait est de type Sol."
+      ]
+    },
+    {
+      "tag": "ossatueur",
+      "patterns": [
+        "Quel est le type d'Ossatueur ?",
+        "Dis-moi le type d'Ossatueur",
+        "Ossatueur est de quel type ?",
+        "Type d'Ossatueur"
+      ],
+      "responses": [
+        "Ossatueur est de type Sol."
+      ]
+    },
+    {
+      "tag": "kicklee",
+      "patterns": [
+        "Quel est le type de Kicklee ?",
+        "Dis-moi le type de Kicklee",
+        "Kicklee est de quel type ?",
+        "Type de Kicklee"
+      ],
+      "responses": [
+        "Kicklee est de type Combat."
+      ]
+    },
+    {
+      "tag": "tygnon",
+      "patterns": [
+        "Quel est le type de Tygnon ?",
+        "Dis-moi le type de Tygnon",
+        "Tygnon est de quel type ?",
+        "Type de Tygnon"
+      ],
+      "responses": [
+        "Tygnon est de type Combat."
+      ]
+    },
+    {
+      "tag": "excelangue",
+      "patterns": [
+        "Quel est le type d'Excelangue ?",
+        "Dis-moi le type d'Excelangue",
+        "Excelangue est de quel type ?",
+        "Type d'Excelangue"
+      ],
+      "responses": [
+        "Excelangue est de type Normal."
+      ]
+    },
+    {
+      "tag": "smogo",
+      "patterns": [
+        "Quel est le type de Smogo ?",
+        "Dis-moi le type de Smogo",
+        "Smogo est de quel type ?",
+        "Type de Smogo"
+      ],
+      "responses": [
+        "Smogo est de type Poison."
+      ]
+    },
+    {
+      "tag": "smogogo",
+      "patterns": [
+        "Quel est le type de Smogogo ?",
+        "Dis-moi le type de Smogogo",
+        "Smogogo est de quel type ?",
+        "Type de Smogogo"
+      ],
+      "responses": [
+        "Smogogo est de type Poison."
+      ]
+    },
+    {
+      "tag": "rhinocorne",
+      "patterns": [
+        "Quel est le type de Rhinocorne ?",
+        "Dis-moi le type de Rhinocorne",
+        "Rhinocorne est de quel type ?",
+        "Type de Rhinocorne"
+      ],
+      "responses": [
+        "Rhinocorne est de type Sol et Roche."
+      ]
+    },
+    {
+      "tag": "rhinoféros",
+      "patterns": [
+        "Quel est le type de Rhinoféros ?",
+        "Dis-moi le type de Rhinoféros",
+        "Rhinoféros est de quel type ?",
+        "Type de Rhinoféros"
+      ],
+      "responses": [
+        "Rhinoféros est de type Sol et Roche."
+      ]
+    },
+    {
+      "tag": "leveinard",
+      "patterns": [
+        "Quel est le type de Leveinard ?",
+        "Dis-moi le type de Leveinard",
+        "Leveinard est de quel type ?",
+        "Type de Leveinard"
+      ],
+      "responses": [
+        "Leveinard est de type Normal."
+      ]
+    },
+    {
+      "tag": "saquedeneu",
+      "patterns": [
+        "Quel est le type de Saquedeneu ?",
+        "Dis-moi le type de Saquedeneu",
+        "Saquedeneu est de quel type ?",
+        "Type de Saquedeneu"
+      ],
+      "responses": [
+        "Saquedeneu est de type Plante."
+      ]
+    },
+    {
+      "tag": "kangourex",
+      "patterns": [
+        "Quel est le type de Kangourex ?",
+        "Dis-moi le type de Kangourex",
+        "Kangourex est de quel type ?",
+        "Type de Kangourex"
+      ],
+      "responses": [
+        "Kangourex est de type Normal."
+      ]
+    },
+    {
+      "tag": "hypotrempe",
+      "patterns": [
+        "Quel est le type d'Hypotrempe ?",
+        "Dis-moi le type d'Hypotrempe",
+        "Hypotrempe est de quel type ?",
+        "Type d'Hypotrempe"
+      ],
+      "responses": [
+        "Hypotrempe est de type Eau."
+      ]
+    },
+    {
+      "tag": "hypocéan",
+      "patterns": [
+        "Quel est le type d'Hypocéan ?",
+        "Dis-moi le type d'Hypocéan",
+        "Hypocéan est de quel type ?",
+        "Type d'Hypocéan"
+      ],
+      "responses": [
+        "Hypocéan est de type Eau."
+      ]
+    },
+    {
+      "tag": "poissirène",
+      "patterns": [
+        "Quel est le type de Poissirène ?",
+        "Dis-moi le type de Poissirène",
+        "Poissirène est de quel type ?",
+        "Type de Poissirène"
+      ],
+      "responses": [
+        "Poissirène est de type Eau."
+      ]
+    },
+    {
+      "tag": "poissoroy",
+      "patterns": [
+        "Quel est le type de Poissoroy ?",
+        "Dis-moi le type de Poissoroy",
+        "Poissoroy est de quel type ?",
+        "Type de Poissoroy"
+      ],
+      "responses": [
+        "Poissoroy est de type Eau."
+      ]
+    },
+    {
+      "tag": "stari",
+      "patterns": [
+        "Quel est le type de Stari ?",
+        "Dis-moi le type de Stari",
+        "Stari est de quel type ?",
+        "Type de Stari"
+      ],
+      "responses": [
+        "Stari est de type Eau."
+      ]
+    },
+    {
+      "tag": "staross",
+      "patterns": [
+        "Quel est le type de Staross ?",
+        "Dis-moi le type de Staross",
+        "Staross est de quel type ?",
+        "Type de Staross"
+      ],
+      "responses": [
+        "Staross est de type Eau et Psy."
+      ]
+    },
+    {
+      "tag": "mmime",
+      "patterns": [
+        "Quel est le type de M. Mime ?",
+        "Dis-moi le type de M. Mime",
+        "M. Mime est de quel type ?",
+        "Type de M. Mime"
+      ],
+      "responses": [
+        "M. Mime est de type Psy et Fée."
+      ]
+    },
+    {
+      "tag": "insécateur",
+      "patterns": [
+        "Quel est le type d'Insécateur ?",
+        "Dis-moi le type d'Insécateur",
+        "Insécateur est de quel type ?",
+        "Type d'Insécateur"
+      ],
+      "responses": [
+        "Insécateur est de type Insecte et Vol."
+      ]
+    },
+    {
+      "tag": "lippoutou",
+      "patterns": [
+        "Quel est le type de Lippoutou ?",
+        "Dis-moi le type de Lippoutou",
+        "Lippoutou est de quel type ?",
+        "Type de Lippoutou"
+      ],
+      "responses": [
+        "Lippoutou est de type Glace et Psy."
+      ]
+    },
+    {
+      "tag": "élektek",
+      "patterns": [
+        "Quel est le type d'Élektek ?",
+        "Dis-moi le type d'Élektek",
+        "Élektek est de quel type ?",
+        "Type d'Élektek"
+      ],
+      "responses": [
+        "Élektek est de type Électrik."
+      ]
+    },
+    {
+      "tag": "magmar",
+      "patterns": [
+        "Quel est le type de Magmar ?",
+        "Dis-moi le type de Magmar",
+        "Magmar est de quel type ?",
+        "Type de Magmar"
+      ],
+      "responses": [
+        "Magmar est de type Feu."
+      ]
+    },
+    {
+      "tag": "scarabrute",
+      "patterns": [
+        "Quel est le type de Scarabrute ?",
+        "Dis-moi le type de Scarabrute",
+        "Scarabrute est de quel type ?",
+        "Type de Scarabrute"
+      ],
+      "responses": [
+        "Scarabrute est de type Insecte."
+      ]
+    },
+    {
+      "tag": "tauros",
+      "patterns": [
+        "Quel est le type de Tauros ?",
+        "Dis-moi le type de Tauros",
+        "Tauros est de quel type ?",
+        "Type de Tauros"
+      ],
+      "responses": [
+        "Tauros est de type Normal."
+      ]
+    },
+    {
+      "tag": "magicarpe",
+      "patterns": [
+        "Quel est le type de Magicarpe ?",
+        "Dis-moi le type de Magicarpe",
+        "Magicarpe est de quel type ?",
+        "Type de Magicarpe"
+      ],
+      "responses": [
+        "Magicarpe est de type Eau."
+      ]
+    },
+    {
+      "tag": "léviator",
+      "patterns": [
+        "Quel est le type de Léviator ?",
+        "Dis-moi le type de Léviator",
+        "Léviator est de quel type ?",
+        "Type de Léviator"
+      ],
+      "responses": [
+        "Léviator est de type Eau et Vol."
+      ]
+    },
+    {
+      "tag": "lokhlass",
+      "patterns": [
+        "Quel est le type de Lokhlass ?",
+        "Dis-moi le type de Lokhlass",
+        "Lokhlass est de quel type ?",
+        "Type de Lokhlass"
+      ],
+      "responses": [
+        "Lokhlass est de type Eau et Glace."
+      ]
+    },
+    {
+      "tag": "métamorph",
+      "patterns": [
+        "Quel est le type de Métamorph ?",
+        "Dis-moi le type de Métamorph",
+        "Métamorph est de quel type ?",
+        "Type de Métamorph"
+      ],
+      "responses": [
+        "Métamorph est de type Normal."
+      ]
+    },
+    {
+      "tag": "évoli",
+      "patterns": [
+        "Quel est le type d'Évoli ?",
+        "Dis-moi le type d'Évoli",
+        "Évoli est de quel type ?",
+        "Type d'Évoli"
+      ],
+      "responses": [
+        "Évoli est de type Normal."
+      ]
+    },
+    {
+      "tag": "aquali",
+      "patterns": [
+        "Quel est le type d'Aquali ?",
+        "Dis-moi le type d'Aquali",
+        "Aquali est de quel type ?",
+        "Type d'Aquali"
+      ],
+      "responses": [
+        "Aquali est de type Eau."
+      ]
+    },
+    {
+      "tag": "voltali",
+      "patterns": [
+        "Quel est le type de Voltali ?",
+        "Dis-moi le type de Voltali",
+        "Voltali est de quel type ?",
+        "Type de Voltali"
+      ],
+      "responses": [
+        "Voltali est de type Électrik."
+      ]
+    },
+    {
+      "tag": "pyroli",
+      "patterns": [
+        "Quel est le type de Pyroli ?",
+        "Dis-moi le type de Pyroli",
+        "Pyroli est de quel type ?",
+        "Type de Pyroli"
+      ],
+      "responses": [
+        "Pyroli est de type Feu."
+      ]
+    },
+    {
+      "tag": "porygon",
+      "patterns": [
+        "Quel est le type de Porygon ?",
+        "Dis-moi le type de Porygon",
+        "Porygon est de quel type ?",
+        "Type de Porygon"
+      ],
+      "responses": [
+        "Porygon est de type Normal."
+      ]
+    },
+    {
+      "tag": "amonita",
+      "patterns": [
+        "Quel est le type d'Amonita ?",
+        "Dis-moi le type d'Amonita",
+        "Amonita est de quel type ?",
+        "Type d'Amonita"
+      ],
+      "responses": [
+        "Amonita est de type Roche et Eau."
+      ]
+    },
+    {
+      "tag": "amonistar",
+      "patterns": [
+        "Quel est le type d'Amonistar ?",
+        "Dis-moi le type d'Amonistar",
+        "Amonistar est de quel type ?",
+        "Type d'Amonistar"
+      ],
+      "responses": [
+        "Amonistar est de type Roche et Eau."
+      ]
+    },
+    {
+      "tag": "kabuto",
+      "patterns": [
+        "Quel est le type de Kabuto ?",
+        "Dis-moi le type de Kabuto",
+        "Kabuto est de quel type ?",
+        "Type de Kabuto"
+      ],
+      "responses": [
+        "Kabuto est de type Roche et Eau."
+      ]
+    },
+    {
+      "tag": "kabutops",
+      "patterns": [
+        "Quel est le type de Kabutops ?",
+        "Dis-moi le type de Kabutops",
+        "Kabutops est de quel type ?",
+        "Type de Kabutops"
+      ],
+      "responses": [
+        "Kabutops est de type Roche et Eau."
+      ]
+    },
+    {
+      "tag": "ptéra",
+      "patterns": [
+        "Quel est le type de Ptéra ?",
+        "Dis-moi le type de Ptéra",
+        "Ptéra est de quel type ?",
+        "Type de Ptéra"
+      ],
+      "responses": [
+        "Ptéra est de type Roche et Vol."
+      ]
+    },
+    {
+      "tag": "ronflex",
+      "patterns": [
+        "Quel est le type de Ronflex ?",
+        "Dis-moi le type de Ronflex",
+        "Ronflex est de quel type ?",
+        "Type de Ronflex"
+      ],
+      "responses": [
+        "Ronflex est de type Normal."
+      ]
+    },
+    {
+      "tag": "artikodin",
+      "patterns": [
+        "Quel est le type d'Artikodin ?",
+        "Dis-moi le type d'Artikodin",
+        "Artikodin est de quel type ?",
+        "Type d'Artikodin"
+      ],
+      "responses": [
+        "Artikodin est de type Glace et Vol."
+      ]
+    },
+    {
+      "tag": "électhor",
+      "patterns": [
+        "Quel est le type d'Électhor ?",
+        "Dis-moi le type d'Électhor",
+        "Électhor est de quel type ?",
+        "Type d'Électhor"
+      ],
+      "responses": [
+        "Électhor est de type Électrik et Vol."
+      ]
+    },
+    {
+      "tag": "sulfura",
+      "patterns": [
+        "Quel est le type de Sulfura ?",
+        "Dis-moi le type de Sulfura",
+        "Sulfura est de quel type ?",
+        "Type de Sulfura"
+      ],
+      "responses": [
+        "Sulfura est de type Feu et Vol."
+      ]
+    },
+    {
+      "tag": "minidraco",
+      "patterns": [
+        "Quel est le type de Minidraco ?",
+        "Dis-moi le type de Minidraco",
+        "Minidraco est de quel type ?",
+        "Type de Minidraco"
+      ],
+      "responses": [
+        "Minidraco est de type Dragon."
+      ]
+    },
+    {
+      "tag": "draco",
+      "patterns": [
+        "Quel est le type de Draco ?",
+        "Dis-moi le type de Draco",
+        "Draco est de quel type ?",
+        "Type de Draco"
+      ],
+      "responses": [
+        "Draco est de type Dragon."
+      ]
+    },
+    {
+      "tag": "dracolosse",
+      "patterns": [
+        "Quel est le type de Dracolosse ?",
+        "Dis-moi le type de Dracolosse",
+        "Dracolosse est de quel type ?",
+        "Type de Dracolosse"
+      ],
+      "responses": [
+        "Dracolosse est de type Dragon et Vol."
+      ]
+    },
+    {
+      "tag": "mewtwo",
+      "patterns": [
+        "Quel est le type de Mewtwo ?",
+        "Dis-moi le type de Mewtwo",
+        "Mewtwo est de quel type ?",
+        "Type de Mewtwo"
+      ],
+      "responses": [
+        "Mewtwo est de type Psy."
+      ]
+    },
+    {
+      "tag": "mew",
+      "patterns": [
+        "Quel est le type de Mew ?",
+        "Dis-moi le type de Mew",
+        "Mew est de quel type ?",
+        "Type de Mew"
+      ],
+      "responses": [
+        "Mew est de type Psy."
+      ]
+    }
+  ]
+}
