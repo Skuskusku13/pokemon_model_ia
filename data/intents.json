@@ -1,6 +1,96 @@
 {
   "intents": [
     {
+      "tag": "salutation",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Coucou",
+        "Y a quelqu'un ?",
+        "Hello",
+        "Hey",
+        "Yo",
+        "Bonsoir"
+      ],
+      "responses": [
+        "Salut !",
+        "Bonjour !",
+        "Coucou !",
+        "Hey !",
+        "Bonsoir !",
+        "Salut, comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "À plus tard",
+        "Bye",
+        "Ciao",
+        "Adieu",
+        "Bonne journée",
+        "Bonne soirée"
+      ],
+      "responses": [
+        "À bientôt !",
+        "Passez une bonne journée !",
+        "Au revoir et à très vite !",
+        "Bye, revenez quand vous voulez !",
+        "Prenez soin de vous !"
+      ]
+    },
+    {
+      "tag": "remerciements",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "C'est gentil",
+        "Super, merci !",
+        "Je vous remercie",
+        "C'est très utile",
+        "Merci pour l'aide"
+      ],
+      "responses": [
+        "Avec plaisir !",
+        "De rien !",
+        "Je suis là pour vous aider !",
+        "Toujours prêt à rendre service !",
+        "Ravi d'avoir pu vous aider !"
+      ]
+    },
+    {
+      "tag": "presentation",
+      "patterns": [
+        "Qui es-tu ?",
+        "Qu'est-ce que tu es ?",
+        "Tu es qui ?",
+        "Présente-toi",
+        "Dis-moi qui tu es",
+        "C'est quoi ton rôle ?"
+      ],
+      "responses": [
+        "Je suis PokeBot, votre assistante virtuelle pour les questions liées à Pokemon.",
+        "Je suis PokeBot, un bot intelligent prêt à vous aider.",
+        "Je suis PokeBot, une intelligence artificielle à votre service."
+      ]
+    },
+    {
+      "tag": "aide",
+      "patterns": [
+        "J'ai besoin d'aide",
+        "Peux-tu m'aider ?",
+        "Que peux-tu faire ?",
+        "Comment tu fonctionnes ?",
+        "Aide-moi"
+      ],
+      "responses": [
+        "Bien sûr ! Dites-moi ce dont vous avez besoin.",
+        "Je peux vous aider avec diverses tâches, dites-moi en plus !",
+        "Je suis là pour répondre à vos questions et vous guider."
+      ]
+    },
+    {
       "tag": "bulbizarre",
       "patterns": [
         "Quel est le type de Bulbizarre ?",
@@ -8,9 +98,7 @@
         "Bulbizarre est de quel type ?",
         "Type de Bulbizarre"
       ],
-      "responses": [
-        "Bulbizarre est de type Plante et Poison."
-      ]
+      "responses": ["Bulbizarre est de type Plante et Poison."]
     },
     {
       "tag": "herbizarre",
@@ -20,9 +108,7 @@
         "Herbizarre est de quel type ?",
         "Type de Herbizarre"
       ],
-      "responses": [
-        "Herbizarre est de type Plante et Poison."
-      ]
+      "responses": ["Herbizarre est de type Plante et Poison."]
     },
     {
       "tag": "florizarre",
@@ -32,9 +118,7 @@
         "Florizarre est de quel type ?",
         "Type de Florizarre"
       ],
-      "responses": [
-        "Florizarre est de type Plante et Poison."
-      ]
+      "responses": ["Florizarre est de type Plante et Poison."]
     },
     {
       "tag": "salamèche",
@@ -44,9 +128,7 @@
         "Salamèche est de quel type ?",
         "Type de Salamèche"
       ],
-      "responses": [
-        "Salamèche est de type Feu."
-      ]
+      "responses": ["Salamèche est de type Feu."]
     },
     {
       "tag": "reptincel",
@@ -56,9 +138,7 @@
         "Reptincel est de quel type ?",
         "Type de Reptincel"
       ],
-      "responses": [
-        "Reptincel est de type Feu."
-      ]
+      "responses": ["Reptincel est de type Feu."]
     },
     {
       "tag": "dracaufeu",
@@ -68,9 +148,7 @@
         "Dracaufeu est de quel type ?",
         "Type de Dracaufeu"
       ],
-      "responses": [
-        "Dracaufeu est de type Feu et Vol."
-      ]
+      "responses": ["Dracaufeu est de type Feu et Vol."]
     },
     {
       "tag": "carapuce",
@@ -80,9 +158,7 @@
         "Carapuce est de quel type ?",
         "Type de Carapuce"
       ],
-      "responses": [
-        "Carapuce est de type Eau."
-      ]
+      "responses": ["Carapuce est de type Eau."]
     },
     {
       "tag": "carabaffe",
@@ -92,9 +168,7 @@
         "Carabaffe est de quel type ?",
         "Type de Carabaffe"
       ],
-      "responses": [
-        "Carabaffe est de type Eau."
-      ]
+      "responses": ["Carabaffe est de type Eau."]
     },
     {
       "tag": "tortank",
@@ -104,9 +178,7 @@
         "Tortank est de quel type ?",
         "Type de Tortank"
       ],
-      "responses": [
-        "Tortank est de type Eau."
-      ]
+      "responses": ["Tortank est de type Eau."]
     },
     {
       "tag": "chenipan",
@@ -116,9 +188,7 @@
         "Chenipan est de quel type ?",
         "Type de Chenipan"
       ],
-      "responses": [
-        "Chenipan est de type Insecte."
-      ]
+      "responses": ["Chenipan est de type Insecte."]
     },
     {
       "tag": "chrysacier",
@@ -128,9 +198,7 @@
         "Chrysacier est de quel type ?",
         "Type de Chrysacier"
       ],
-      "responses": [
-        "Chrysacier est de type Insecte."
-      ]
+      "responses": ["Chrysacier est de type Insecte."]
     },
     {
       "tag": "papilusion",
@@ -140,9 +208,7 @@
         "Papilusion est de quel type ?",
         "Type de Papilusion"
       ],
-      "responses": [
-        "Papilusion est de type Insecte et Vol."
-      ]
+      "responses": ["Papilusion est de type Insecte et Vol."]
     },
     {
       "tag": "aspicot",
@@ -152,9 +218,7 @@
         "Aspicot est de quel type ?",
         "Type d'Aspicot"
       ],
-      "responses": [
-        "Aspicot est de type Insecte et Poison."
-      ]
+      "responses": ["Aspicot est de type Insecte et Poison."]
     },
     {
       "tag": "coconfort",
@@ -164,9 +228,7 @@
         "Coconfort est de quel type ?",
         "Type de Coconfort"
       ],
-      "responses": [
-        "Coconfort est de type Insecte et Poison."
-      ]
+      "responses": ["Coconfort est de type Insecte et Poison."]
     },
     {
       "tag": "dardargnan",
@@ -176,9 +238,7 @@
         "Dardargnan est de quel type ?",
         "Type de Dardargnan"
       ],
-      "responses": [
-        "Dardargnan est de type Insecte et Poison."
-      ]
+      "responses": ["Dardargnan est de type Insecte et Poison."]
     },
     {
       "tag": "roucool",
@@ -188,9 +248,7 @@
         "Roucool est de quel type ?",
         "Type de Roucool"
       ],
-      "responses": [
-        "Roucool est de type Normal et Vol."
-      ]
+      "responses": ["Roucool est de type Normal et Vol."]
     },
     {
       "tag": "roucoups",
@@ -200,9 +258,7 @@
         "Roucoups est de quel type ?",
         "Type de Roucoups"
       ],
-      "responses": [
-        "Roucoups est de type Normal et Vol."
-      ]
+      "responses": ["Roucoups est de type Normal et Vol."]
     },
     {
       "tag": "roucarnage",
@@ -212,9 +268,7 @@
         "Roucarnage est de quel type ?",
         "Type de Roucarnage"
       ],
-      "responses": [
-        "Roucarnage est de type Normal et Vol."
-      ]
+      "responses": ["Roucarnage est de type Normal et Vol."]
     },
     {
       "tag": "rattata",
@@ -224,9 +278,7 @@
         "Rattata est de quel type ?",
         "Type de Rattata"
       ],
-      "responses": [
-        "Rattata est de type Normal."
-      ]
+      "responses": ["Rattata est de type Normal."]
     },
     {
       "tag": "rattatac",
@@ -236,9 +288,7 @@
         "Rattatac est de quel type ?",
         "Type de Rattatac"
       ],
-      "responses": [
-        "Rattatac est de type Normal."
-      ]
+      "responses": ["Rattatac est de type Normal."]
     },
     {
       "tag": "piafabec",
@@ -248,9 +298,7 @@
         "Piafabec est de quel type ?",
         "Type de Piafabec"
       ],
-      "responses": [
-        "Piafabec est de type Normal et Vol."
-      ]
+      "responses": ["Piafabec est de type Normal et Vol."]
     },
     {
       "tag": "rapasdepic",
@@ -260,9 +308,7 @@
         "Rapasdepic est de quel type ?",
         "Type de Rapasdepic"
       ],
-      "responses": [
-        "Rapasdepic est de type Normal et Vol."
-      ]
+      "responses": ["Rapasdepic est de type Normal et Vol."]
     },
     {
       "tag": "abo",
@@ -272,9 +318,7 @@
         "Abo est de quel type ?",
         "Type d'Abo"
       ],
-      "responses": [
-        "Abo est de type Poison."
-      ]
+      "responses": ["Abo est de type Poison."]
     },
     {
       "tag": "arbok",
@@ -284,9 +328,7 @@
         "Arbok est de quel type ?",
         "Type d'Arbok"
       ],
-      "responses": [
-        "Arbok est de type Poison."
-      ]
+      "responses": ["Arbok est de type Poison."]
     },
     {
       "tag": "pikachu",
@@ -296,9 +338,7 @@
         "Pikachu est de quel type ?",
         "Type de Pikachu"
       ],
-      "responses": [
-        "Pikachu est de type Électrik."
-      ]
+      "responses": ["Pikachu est de type Électrik."]
     },
     {
       "tag": "raichu",
@@ -308,9 +348,7 @@
         "Raichu est de quel type ?",
         "Type de Raichu"
       ],
-      "responses": [
-        "Raichu est de type Électrik."
-      ]
+      "responses": ["Raichu est de type Électrik."]
     },
     {
       "tag": "sabelette",
@@ -320,9 +358,7 @@
         "Sabelette est de quel type ?",
         "Type de Sabelette"
       ],
-      "responses": [
-        "Sabelette est de type Sol."
-      ]
+      "responses": ["Sabelette est de type Sol."]
     },
     {
       "tag": "sablaireau",
@@ -332,9 +368,7 @@
         "Sablaireau est de quel type ?",
         "Type de Sablaireau"
       ],
-      "responses": [
-        "Sablaireau est de type Sol."
-      ]
+      "responses": ["Sablaireau est de type Sol."]
     },
     {
       "tag": "nidoran♀",
@@ -344,9 +378,7 @@
         "Nidoran♀ est de quel type ?",
         "Type de Nidoran♀"
       ],
-      "responses": [
-        "Nidoran♀ est de type Poison."
-      ]
+      "responses": ["Nidoran♀ est de type Poison."]
     },
     {
       "tag": "nidorina",
@@ -356,9 +388,7 @@
         "Nidorina est de quel type ?",
         "Type de Nidorina"
       ],
-      "responses": [
-        "Nidorina est de type Poison."
-      ]
+      "responses": ["Nidorina est de type Poison."]
     },
     {
       "tag": "nidoqueen",
@@ -368,9 +398,7 @@
         "Nidoqueen est de quel type ?",
         "Type de Nidoqueen"
       ],
-      "responses": [
-        "Nidoqueen est de type Poison et Sol."
-      ]
+      "responses": ["Nidoqueen est de type Poison et Sol."]
     },
     {
       "tag": "nidoran♂",
@@ -380,9 +408,7 @@
         "Nidoran♂ est de quel type ?",
         "Type de Nidoran♂"
       ],
-      "responses": [
-        "Nidoran♂ est de type Poison."
-      ]
+      "responses": ["Nidoran♂ est de type Poison."]
     },
     {
       "tag": "nidorino",
@@ -392,9 +418,7 @@
         "Nidorino est de quel type ?",
         "Type de Nidorino"
       ],
-      "responses": [
-        "Nidorino est de type Poison."
-      ]
+      "responses": ["Nidorino est de type Poison."]
     },
     {
       "tag": "nidoking",
@@ -404,9 +428,7 @@
         "Nidoking est de quel type ?",
         "Type de Nidoking"
       ],
-      "responses": [
-        "Nidoking est de type Poison et Sol."
-      ]
+      "responses": ["Nidoking est de type Poison et Sol."]
     },
     {
       "tag": "mélofée",
@@ -416,9 +438,7 @@
         "Mélofée est de quel type ?",
         "Type de Mélofée"
       ],
-      "responses": [
-        "Mélofée est de type Fée."
-      ]
+      "responses": ["Mélofée est de type Fée."]
     },
     {
       "tag": "mélodelfe",
@@ -428,9 +448,7 @@
         "Mélodelfe est de quel type ?",
         "Type de Mélodelfe"
       ],
-      "responses": [
-        "Mélodelfe est de type Fée."
-      ]
+      "responses": ["Mélodelfe est de type Fée."]
     },
     {
       "tag": "goupix",
@@ -440,9 +458,7 @@
         "Goupix est de quel type ?",
         "Type de Goupix"
       ],
-      "responses": [
-        "Goupix est de type Feu."
-      ]
+      "responses": ["Goupix est de type Feu."]
     },
     {
       "tag": "feunard",
@@ -452,9 +468,7 @@
         "Feunard est de quel type ?",
         "Type de Feunard"
       ],
-      "responses": [
-        "Feunard est de type Feu."
-      ]
+      "responses": ["Feunard est de type Feu."]
     },
     {
       "tag": "rondoudou",
@@ -464,9 +478,7 @@
         "Rondoudou est de quel type ?",
         "Type de Rondoudou"
       ],
-      "responses": [
-        "Rondoudou est de type Normal et Fée."
-      ]
+      "responses": ["Rondoudou est de type Normal et Fée."]
     },
     {
       "tag": "grodoudou",
@@ -476,9 +488,7 @@
         "Grodoudou est de quel type ?",
         "Type de Grodoudou"
       ],
-      "responses": [
-        "Grodoudou est de type Normal et Fée."
-      ]
+      "responses": ["Grodoudou est de type Normal et Fée."]
     },
     {
       "tag": "nosferapti",
@@ -488,9 +498,7 @@
         "Nosferapti est de quel type ?",
         "Type de Nosferapti"
       ],
-      "responses": [
-        "Nosferapti est de type Poison et Vol."
-      ]
+      "responses": ["Nosferapti est de type Poison et Vol."]
     },
     {
       "tag": "nosferalto",
@@ -500,9 +508,7 @@
         "Nosferalto est de quel type ?",
         "Type de Nosferalto"
       ],
-      "responses": [
-        "Nosferalto est de type Poison et Vol."
-      ]
+      "responses": ["Nosferalto est de type Poison et Vol."]
     },
     {
       "tag": "mystherbe",
@@ -512,9 +518,7 @@
         "Mystherbe est de quel type ?",
         "Type de Mystherbe"
       ],
-      "responses": [
-        "Mystherbe est de type Plante et Poison."
-      ]
+      "responses": ["Mystherbe est de type Plante et Poison."]
     },
     {
       "tag": "ortide",
@@ -524,9 +528,7 @@
         "Ortide est de quel type ?",
         "Type d'Ortide"
       ],
-      "responses": [
-        "Ortide est de type Plante et Poison."
-      ]
+      "responses": ["Ortide est de type Plante et Poison."]
     },
     {
       "tag": "rafflesia",
@@ -536,9 +538,7 @@
         "Rafflesia est de quel type ?",
         "Type de Rafflesia"
       ],
-      "responses": [
-        "Rafflesia est de type Plante et Poison."
-      ]
+      "responses": ["Rafflesia est de type Plante et Poison."]
     },
     {
       "tag": "paras",
@@ -548,9 +548,7 @@
         "Paras est de quel type ?",
         "Type de Paras"
       ],
-      "responses": [
-        "Paras est de type Insecte et Plante."
-      ]
+      "responses": ["Paras est de type Insecte et Plante."]
     },
     {
       "tag": "parasect",
@@ -560,9 +558,7 @@
         "Parasect est de quel type ?",
         "Type de Parasect"
       ],
-      "responses": [
-        "Parasect est de type Insecte et Plante."
-      ]
+      "responses": ["Parasect est de type Insecte et Plante."]
     },
     {
       "tag": "mimitoss",
@@ -572,9 +568,7 @@
         "Mimitoss est de quel type ?",
         "Type de Mimitoss"
       ],
-      "responses": [
-        "Mimitoss est de type Insecte et Poison."
-      ]
+      "responses": ["Mimitoss est de type Insecte et Poison."]
     },
     {
       "tag": "aéromite",
@@ -584,9 +578,7 @@
         "Aéromite est de quel type ?",
         "Type d'Aéromite"
       ],
-      "responses": [
-        "Aéromite est de type Insecte et Poison."
-      ]
+      "responses": ["Aéromite est de type Insecte et Poison."]
     },
     {
       "tag": "taupiqueur",
@@ -596,9 +588,7 @@
         "Taupiqueur est de quel type ?",
         "Type de Taupiqueur"
       ],
-      "responses": [
-        "Taupiqueur est de type Sol."
-      ]
+      "responses": ["Taupiqueur est de type Sol."]
     },
     {
       "tag": "triopikeur",
@@ -608,9 +598,7 @@
         "Triopikeur est de quel type ?",
         "Type de Triopikeur"
       ],
-      "responses": [
-        "Triopikeur est de type Sol."
-      ]
+      "responses": ["Triopikeur est de type Sol."]
     },
     {
       "tag": "miaouss",
@@ -620,9 +608,7 @@
         "Miaouss est de quel type ?",
         "Type de Miaouss"
       ],
-      "responses": [
-        "Miaouss est de type Normal."
-      ]
+      "responses": ["Miaouss est de type Normal."]
     },
     {
       "tag": "persian",
@@ -632,9 +618,7 @@
         "Persian est de quel type ?",
         "Type de Persian"
       ],
-      "responses": [
-        "Persian est de type Normal."
-      ]
+      "responses": ["Persian est de type Normal."]
     },
     {
       "tag": "psykokwak",
@@ -644,9 +628,7 @@
         "Psykokwak est de quel type ?",
         "Type de Psykokwak"
       ],
-      "responses": [
-        "Psykokwak est de type Eau."
-      ]
+      "responses": ["Psykokwak est de type Eau."]
     },
     {
       "tag": "akwakwak",
@@ -656,9 +638,7 @@
         "Akwakwak est de quel type ?",
         "Type d'Akwakwak"
       ],
-      "responses": [
-        "Akwakwak est de type Eau."
-      ]
+      "responses": ["Akwakwak est de type Eau."]
     },
     {
       "tag": "férosinge",
@@ -668,9 +648,7 @@
         "Férosinge est de quel type ?",
         "Type de Férosinge"
       ],
-      "responses": [
-        "Férosinge est de type Combat."
-      ]
+      "responses": ["Férosinge est de type Combat."]
     },
     {
       "tag": "colossinge",
@@ -680,9 +658,7 @@
         "Colossinge est de quel type ?",
         "Type de Colossinge"
       ],
-      "responses": [
-        "Colossinge est de type Combat."
-      ]
+      "responses": ["Colossinge est de type Combat."]
     },
     {
       "tag": "caninos",
@@ -692,9 +668,7 @@
         "Caninos est de quel type ?",
         "Type de Caninos"
       ],
-      "responses": [
-        "Caninos est de type Feu."
-      ]
+      "responses": ["Caninos est de type Feu."]
     },
     {
       "tag": "arcanin",
@@ -704,9 +678,7 @@
         "Arcanin est de quel type ?",
         "Type d'Arcanin"
       ],
-      "responses": [
-        "Arcanin est de type Feu."
-      ]
+      "responses": ["Arcanin est de type Feu."]
     },
     {
       "tag": "ptitard",
@@ -716,9 +688,7 @@
         "Ptitard est de quel type ?",
         "Type de Ptitard"
       ],
-      "responses": [
-        "Ptitard est de type Eau."
-      ]
+      "responses": ["Ptitard est de type Eau."]
     },
     {
       "tag": "têtarte",
@@ -728,9 +698,7 @@
         "Têtarte est de quel type ?",
         "Type de Têtarte"
       ],
-      "responses": [
-        "Têtarte est de type Eau."
-      ]
+      "responses": ["Têtarte est de type Eau."]
     },
     {
       "tag": "tartard",
@@ -740,9 +708,7 @@
         "Tartard est de quel type ?",
         "Type de Tartard"
       ],
-      "responses": [
-        "Tartard est de type Eau et Combat."
-      ]
+      "responses": ["Tartard est de type Eau et Combat."]
     },
     {
       "tag": "abra",
@@ -752,9 +718,7 @@
         "Abra est de quel type ?",
         "Type d'Abra"
       ],
-      "responses": [
-        "Abra est de type Psy."
-      ]
+      "responses": ["Abra est de type Psy."]
     },
     {
       "tag": "kadabra",
@@ -764,9 +728,7 @@
         "Kadabra est de quel type ?",
         "Type de Kadabra"
       ],
-      "responses": [
-        "Kadabra est de type Psy."
-      ]
+      "responses": ["Kadabra est de type Psy."]
     },
     {
       "tag": "alakazam",
@@ -776,9 +738,7 @@
         "Alakazam est de quel type ?",
         "Type d'Alakazam"
       ],
-      "responses": [
-        "Alakazam est de type Psy."
-      ]
+      "responses": ["Alakazam est de type Psy."]
     },
     {
       "tag": "machoc",
@@ -788,9 +748,7 @@
         "Machoc est de quel type ?",
         "Type de Machoc"
       ],
-      "responses": [
-        "Machoc est de type Combat."
-      ]
+      "responses": ["Machoc est de type Combat."]
     },
     {
       "tag": "machopeur",
@@ -800,9 +758,7 @@
         "Machopeur est de quel type ?",
         "Type de Machopeur"
       ],
-      "responses": [
-        "Machopeur est de type Combat."
-      ]
+      "responses": ["Machopeur est de type Combat."]
     },
     {
       "tag": "mackogneur",
@@ -812,9 +768,7 @@
         "Mackogneur est de quel type ?",
         "Type de Mackogneur"
       ],
-      "responses": [
-        "Mackogneur est de type Combat."
-      ]
+      "responses": ["Mackogneur est de type Combat."]
     },
     {
       "tag": "chétiflor",
@@ -824,9 +778,7 @@
         "Chétiflor est de quel type ?",
         "Type de Chétiflor"
       ],
-      "responses": [
-        "Chétiflor est de type Plante."
-      ]
+      "responses": ["Chétiflor est de type Plante."]
     },
     {
       "tag": "boustiflor",
@@ -836,9 +788,7 @@
         "Boustiflor est de quel type ?",
         "Type de Boustiflor"
       ],
-      "responses": [
-        "Boustiflor est de type Plante."
-      ]
+      "responses": ["Boustiflor est de type Plante."]
     },
     {
       "tag": "empiflor",
@@ -848,9 +798,7 @@
         "Empiflor est de quel type ?",
         "Type d'Empiflor"
       ],
-      "responses": [
-        "Empiflor est de type Plante."
-      ]
+      "responses": ["Empiflor est de type Plante."]
     },
     {
       "tag": "tentacool",
@@ -860,9 +808,7 @@
         "Tentacool est de quel type ?",
         "Type de Tentacool"
       ],
-      "responses": [
-        "Tentacool est de type Eau et Poison."
-      ]
+      "responses": ["Tentacool est de type Eau et Poison."]
     },
     {
       "tag": "tentacruel",
@@ -872,9 +818,7 @@
         "Tentacruel est de quel type ?",
         "Type de Tentacruel"
       ],
-      "responses": [
-        "Tentacruel est de type Eau et Poison."
-      ]
+      "responses": ["Tentacruel est de type Eau et Poison."]
     },
     {
       "tag": "racaillou",
@@ -884,9 +828,7 @@
         "Racaillou est de quel type ?",
         "Type de Racaillou"
       ],
-      "responses": [
-        "Racaillou est de type Roche et Sol."
-      ]
+      "responses": ["Racaillou est de type Roche et Sol."]
     },
     {
       "tag": "gravalanch",
@@ -896,9 +838,7 @@
         "Gravalanch est de quel type ?",
         "Type de Gravalanch"
       ],
-      "responses": [
-        "Gravalanch est de type Roche et Sol."
-      ]
+      "responses": ["Gravalanch est de type Roche et Sol."]
     },
     {
       "tag": "grolem",
@@ -908,9 +848,7 @@
         "Grolem est de quel type ?",
         "Type de Grolem"
       ],
-      "responses": [
-        "Grolem est de type Roche et Sol."
-      ]
+      "responses": ["Grolem est de type Roche et Sol."]
     },
     {
       "tag": "ponyta",
@@ -920,9 +858,7 @@
         "Ponyta est de quel type ?",
         "Type de Ponyta"
       ],
-      "responses": [
-        "Ponyta est de type Feu."
-      ]
+      "responses": ["Ponyta est de type Feu."]
     },
     {
       "tag": "galopa",
@@ -932,9 +868,7 @@
         "Galopa est de quel type ?",
         "Type de Galopa"
       ],
-      "responses": [
-        "Galopa est de type Feu."
-      ]
+      "responses": ["Galopa est de type Feu."]
     },
     {
       "tag": "ramoloss",
@@ -944,9 +878,7 @@
         "Ramoloss est de quel type ?",
         "Type de Ramoloss"
       ],
-      "responses": [
-        "Ramoloss est de type Eau et Psy."
-      ]
+      "responses": ["Ramoloss est de type Eau et Psy."]
     },
     {
       "tag": "flagadoss",
@@ -956,9 +888,7 @@
         "Flagadoss est de quel type ?",
         "Type de Flagadoss"
       ],
-      "responses": [
-        "Flagadoss est de type Eau et Psy."
-      ]
+      "responses": ["Flagadoss est de type Eau et Psy."]
     },
     {
       "tag": "magnéti",
@@ -968,9 +898,7 @@
         "Magnéti est de quel type ?",
         "Type de Magnéti"
       ],
-      "responses": [
-        "Magnéti est de type Électrik et Acier."
-      ]
+      "responses": ["Magnéti est de type Électrik et Acier."]
     },
     {
       "tag": "magnéton",
@@ -980,9 +908,7 @@
         "Magnéton est de quel type ?",
         "Type de Magnéton"
       ],
-      "responses": [
-        "Magnéton est de type Électrik et Acier."
-      ]
+      "responses": ["Magnéton est de type Électrik et Acier."]
     },
     {
       "tag": "canarticho",
@@ -992,9 +918,7 @@
         "Canarticho est de quel type ?",
         "Type de Canarticho"
       ],
-      "responses": [
-        "Canarticho est de type Normal et Vol."
-      ]
+      "responses": ["Canarticho est de type Normal et Vol."]
     },
     {
       "tag": "doduo",
@@ -1004,9 +928,7 @@
         "Doduo est de quel type ?",
         "Type de Doduo"
       ],
-      "responses": [
-        "Doduo est de type Normal et Vol."
-      ]
+      "responses": ["Doduo est de type Normal et Vol."]
     },
     {
       "tag": "dodrio",
@@ -1016,9 +938,7 @@
         "Dodrio est de quel type ?",
         "Type de Dodrio"
       ],
-      "responses": [
-        "Dodrio est de type Normal et Vol."
-      ]
+      "responses": ["Dodrio est de type Normal et Vol."]
     },
     {
       "tag": "otaria",
@@ -1028,9 +948,7 @@
         "Otaria est de quel type ?",
         "Type d'Otaria"
       ],
-      "responses": [
-        "Otaria est de type Eau."
-      ]
+      "responses": ["Otaria est de type Eau."]
     },
     {
       "tag": "lamantine",
@@ -1040,9 +958,7 @@
         "Lamantine est de quel type ?",
         "Type de Lamantine"
       ],
-      "responses": [
-        "Lamantine est de type Eau et Glace."
-      ]
+      "responses": ["Lamantine est de type Eau et Glace."]
     },
     {
       "tag": "tadmorv",
@@ -1052,9 +968,7 @@
         "Tadmorv est de quel type ?",
         "Type de Tadmorv"
       ],
-      "responses": [
-        "Tadmorv est de type Poison."
-      ]
+      "responses": ["Tadmorv est de type Poison."]
     },
     {
       "tag": "grotadmorv",
@@ -1064,9 +978,7 @@
         "Grotadmorv est de quel type ?",
         "Type de Grotadmorv"
       ],
-      "responses": [
-        "Grotadmorv est de type Poison."
-      ]
+      "responses": ["Grotadmorv est de type Poison."]
     },
     {
       "tag": "kokiyas",
@@ -1076,9 +988,7 @@
         "Kokiyas est de quel type ?",
         "Type de Kokiyas"
       ],
-      "responses": [
-        "Kokiyas est de type Eau."
-      ]
+      "responses": ["Kokiyas est de type Eau."]
     },
     {
       "tag": "crustabri",
@@ -1088,9 +998,7 @@
         "Crustabri est de quel type ?",
         "Type de Crustabri"
       ],
-      "responses": [
-        "Crustabri est de type Eau et Glace."
-      ]
+      "responses": ["Crustabri est de type Eau et Glace."]
     },
     {
       "tag": "fantominus",
@@ -1100,9 +1008,7 @@
         "Fantominus est de quel type ?",
         "Type de Fantominus"
       ],
-      "responses": [
-        "Fantominus est de type Spectre et Poison."
-      ]
+      "responses": ["Fantominus est de type Spectre et Poison."]
     },
     {
       "tag": "spectrum",
@@ -1112,9 +1018,7 @@
         "Spectrum est de quel type ?",
         "Type de Spectrum"
       ],
-      "responses": [
-        "Spectrum est de type Spectre et Poison."
-      ]
+      "responses": ["Spectrum est de type Spectre et Poison."]
     },
     {
       "tag": "ectoplasma",
@@ -1124,9 +1028,7 @@
         "Ectoplasma est de quel type ?",
         "Type d'Ectoplasma"
       ],
-      "responses": [
-        "Ectoplasma est de type Spectre et Poison."
-      ]
+      "responses": ["Ectoplasma est de type Spectre et Poison."]
     },
     {
       "tag": "onix",
@@ -1136,9 +1038,7 @@
         "Onix est de quel type ?",
         "Type d'Onix"
       ],
-      "responses": [
-        "Onix est de type Roche et Sol."
-      ]
+      "responses": ["Onix est de type Roche et Sol."]
     },
     {
       "tag": "soporifik",
@@ -1148,9 +1048,7 @@
         "Soporifik est de quel type ?",
         "Type de Soporifik"
       ],
-      "responses": [
-        "Soporifik est de type Psy."
-      ]
+      "responses": ["Soporifik est de type Psy."]
     },
     {
       "tag": "hypnomade",
@@ -1160,9 +1058,7 @@
         "Hypnomade est de quel type ?",
         "Type d'Hypnomade"
       ],
-      "responses": [
-        "Hypnomade est de type Psy."
-      ]
+      "responses": ["Hypnomade est de type Psy."]
     },
     {
       "tag": "krabby",
@@ -1172,9 +1068,7 @@
         "Krabby est de quel type ?",
         "Type de Krabby"
       ],
-      "responses": [
-        "Krabby est de type Eau."
-      ]
+      "responses": ["Krabby est de type Eau."]
     },
     {
       "tag": "krabboss",
@@ -1184,9 +1078,7 @@
         "Krabboss est de quel type ?",
         "Type de Krabboss"
       ],
-      "responses": [
-        "Krabboss est de type Eau."
-      ]
+      "responses": ["Krabboss est de type Eau."]
     },
     {
       "tag": "voltorbe",
@@ -1196,9 +1088,7 @@
         "Voltorbe est de quel type ?",
         "Type de Voltorbe"
       ],
-      "responses": [
-        "Voltorbe est de type Électrik."
-      ]
+      "responses": ["Voltorbe est de type Électrik."]
     },
     {
       "tag": "électrode",
@@ -1208,9 +1098,7 @@
         "Électrode est de quel type ?",
         "Type d'Électrode"
       ],
-      "responses": [
-        "Électrode est de type Électrik."
-      ]
+      "responses": ["Électrode est de type Électrik."]
     },
     {
       "tag": "noeunoeuf",
@@ -1220,9 +1108,7 @@
         "Noeunoeuf est de quel type ?",
         "Type de Noeunoeuf"
       ],
-      "responses": [
-        "Noeunoeuf est de type Plante et Psy."
-      ]
+      "responses": ["Noeunoeuf est de type Plante et Psy."]
     },
     {
       "tag": "noadkoko",
@@ -1232,9 +1118,7 @@
         "Noadkoko est de quel type ?",
         "Type de Noadkoko"
       ],
-      "responses": [
-        "Noadkoko est de type Plante et Psy."
-      ]
+      "responses": ["Noadkoko est de type Plante et Psy."]
     },
     {
       "tag": "osselait",
@@ -1244,9 +1128,7 @@
         "Osselait est de quel type ?",
         "Type d'Osselait"
       ],
-      "responses": [
-        "Osselait est de type Sol."
-      ]
+      "responses": ["Osselait est de type Sol."]
     },
     {
       "tag": "ossatueur",
@@ -1256,9 +1138,7 @@
         "Ossatueur est de quel type ?",
         "Type d'Ossatueur"
       ],
-      "responses": [
-        "Ossatueur est de type Sol."
-      ]
+      "responses": ["Ossatueur est de type Sol."]
     },
     {
       "tag": "kicklee",
@@ -1268,9 +1148,7 @@
         "Kicklee est de quel type ?",
         "Type de Kicklee"
       ],
-      "responses": [
-        "Kicklee est de type Combat."
-      ]
+      "responses": ["Kicklee est de type Combat."]
     },
     {
       "tag": "tygnon",
@@ -1280,9 +1158,7 @@
         "Tygnon est de quel type ?",
         "Type de Tygnon"
       ],
-      "responses": [
-        "Tygnon est de type Combat."
-      ]
+      "responses": ["Tygnon est de type Combat."]
     },
     {
       "tag": "excelangue",
@@ -1292,9 +1168,7 @@
         "Excelangue est de quel type ?",
         "Type d'Excelangue"
       ],
-      "responses": [
-        "Excelangue est de type Normal."
-      ]
+      "responses": ["Excelangue est de type Normal."]
     },
     {
       "tag": "smogo",
@@ -1304,9 +1178,7 @@
         "Smogo est de quel type ?",
         "Type de Smogo"
       ],
-      "responses": [
-        "Smogo est de type Poison."
-      ]
+      "responses": ["Smogo est de type Poison."]
     },
     {
       "tag": "smogogo",
@@ -1316,9 +1188,7 @@
         "Smogogo est de quel type ?",
         "Type de Smogogo"
       ],
-      "responses": [
-        "Smogogo est de type Poison."
-      ]
+      "responses": ["Smogogo est de type Poison."]
     },
     {
       "tag": "rhinocorne",
@@ -1328,9 +1198,7 @@
         "Rhinocorne est de quel type ?",
         "Type de Rhinocorne"
       ],
-      "responses": [
-        "Rhinocorne est de type Sol et Roche."
-      ]
+      "responses": ["Rhinocorne est de type Sol et Roche."]
     },
     {
       "tag": "rhinoféros",
@@ -1340,9 +1208,7 @@
         "Rhinoféros est de quel type ?",
         "Type de Rhinoféros"
       ],
-      "responses": [
-        "Rhinoféros est de type Sol et Roche."
-      ]
+      "responses": ["Rhinoféros est de type Sol et Roche."]
     },
     {
       "tag": "leveinard",
@@ -1352,9 +1218,7 @@
         "Leveinard est de quel type ?",
         "Type de Leveinard"
       ],
-      "responses": [
-        "Leveinard est de type Normal."
-      ]
+      "responses": ["Leveinard est de type Normal."]
     },
     {
       "tag": "saquedeneu",
@@ -1364,9 +1228,7 @@
         "Saquedeneu est de quel type ?",
         "Type de Saquedeneu"
       ],
-      "responses": [
-        "Saquedeneu est de type Plante."
-      ]
+      "responses": ["Saquedeneu est de type Plante."]
     },
     {
       "tag": "kangourex",
@@ -1376,9 +1238,7 @@
         "Kangourex est de quel type ?",
         "Type de Kangourex"
       ],
-      "responses": [
-        "Kangourex est de type Normal."
-      ]
+      "responses": ["Kangourex est de type Normal."]
     },
     {
       "tag": "hypotrempe",
@@ -1388,9 +1248,7 @@
         "Hypotrempe est de quel type ?",
         "Type d'Hypotrempe"
       ],
-      "responses": [
-        "Hypotrempe est de type Eau."
-      ]
+      "responses": ["Hypotrempe est de type Eau."]
     },
     {
       "tag": "hypocéan",
@@ -1400,9 +1258,7 @@
         "Hypocéan est de quel type ?",
         "Type d'Hypocéan"
       ],
-      "responses": [
-        "Hypocéan est de type Eau."
-      ]
+      "responses": ["Hypocéan est de type Eau."]
     },
     {
       "tag": "poissirène",
@@ -1412,9 +1268,7 @@
         "Poissirène est de quel type ?",
         "Type de Poissirène"
       ],
-      "responses": [
-        "Poissirène est de type Eau."
-      ]
+      "responses": ["Poissirène est de type Eau."]
     },
     {
       "tag": "poissoroy",
@@ -1424,9 +1278,7 @@
         "Poissoroy est de quel type ?",
         "Type de Poissoroy"
       ],
-      "responses": [
-        "Poissoroy est de type Eau."
-      ]
+      "responses": ["Poissoroy est de type Eau."]
     },
     {
       "tag": "stari",
@@ -1436,9 +1288,7 @@
         "Stari est de quel type ?",
         "Type de Stari"
       ],
-      "responses": [
-        "Stari est de type Eau."
-      ]
+      "responses": ["Stari est de type Eau."]
     },
     {
       "tag": "staross",
@@ -1448,9 +1298,7 @@
         "Staross est de quel type ?",
         "Type de Staross"
       ],
-      "responses": [
-        "Staross est de type Eau et Psy."
-      ]
+      "responses": ["Staross est de type Eau et Psy."]
     },
     {
       "tag": "mmime",
@@ -1460,9 +1308,7 @@
         "M. Mime est de quel type ?",
         "Type de M. Mime"
       ],
-      "responses": [
-        "M. Mime est de type Psy et Fée."
-      ]
+      "responses": ["M. Mime est de type Psy et Fée."]
     },
     {
       "tag": "insécateur",
@@ -1472,9 +1318,7 @@
         "Insécateur est de quel type ?",
         "Type d'Insécateur"
       ],
-      "responses": [
-        "Insécateur est de type Insecte et Vol."
-      ]
+      "responses": ["Insécateur est de type Insecte et Vol."]
     },
     {
       "tag": "lippoutou",
@@ -1484,9 +1328,7 @@
         "Lippoutou est de quel type ?",
         "Type de Lippoutou"
       ],
-      "responses": [
-        "Lippoutou est de type Glace et Psy."
-      ]
+      "responses": ["Lippoutou est de type Glace et Psy."]
     },
     {
       "tag": "élektek",
@@ -1496,9 +1338,7 @@
         "Élektek est de quel type ?",
         "Type d'Élektek"
       ],
-      "responses": [
-        "Élektek est de type Électrik."
-      ]
+      "responses": ["Élektek est de type Électrik."]
     },
     {
       "tag": "magmar",
@@ -1508,9 +1348,7 @@
         "Magmar est de quel type ?",
         "Type de Magmar"
       ],
-      "responses": [
-        "Magmar est de type Feu."
-      ]
+      "responses": ["Magmar est de type Feu."]
     },
     {
       "tag": "scarabrute",
@@ -1520,9 +1358,7 @@
         "Scarabrute est de quel type ?",
         "Type de Scarabrute"
       ],
-      "responses": [
-        "Scarabrute est de type Insecte."
-      ]
+      "responses": ["Scarabrute est de type Insecte."]
     },
     {
       "tag": "tauros",
@@ -1532,9 +1368,7 @@
         "Tauros est de quel type ?",
         "Type de Tauros"
       ],
-      "responses": [
-        "Tauros est de type Normal."
-      ]
+      "responses": ["Tauros est de type Normal."]
     },
     {
       "tag": "magicarpe",
@@ -1544,9 +1378,7 @@
         "Magicarpe est de quel type ?",
         "Type de Magicarpe"
       ],
-      "responses": [
-        "Magicarpe est de type Eau."
-      ]
+      "responses": ["Magicarpe est de type Eau."]
     },
     {
       "tag": "léviator",
@@ -1556,9 +1388,7 @@
         "Léviator est de quel type ?",
         "Type de Léviator"
       ],
-      "responses": [
-        "Léviator est de type Eau et Vol."
-      ]
+      "responses": ["Léviator est de type Eau et Vol."]
     },
     {
       "tag": "lokhlass",
@@ -1568,9 +1398,7 @@
         "Lokhlass est de quel type ?",
         "Type de Lokhlass"
       ],
-      "responses": [
-        "Lokhlass est de type Eau et Glace."
-      ]
+      "responses": ["Lokhlass est de type Eau et Glace."]
     },
     {
       "tag": "métamorph",
@@ -1580,9 +1408,7 @@
         "Métamorph est de quel type ?",
         "Type de Métamorph"
       ],
-      "responses": [
-        "Métamorph est de type Normal."
-      ]
+      "responses": ["Métamorph est de type Normal."]
     },
     {
       "tag": "évoli",
@@ -1592,9 +1418,7 @@
         "Évoli est de quel type ?",
         "Type d'Évoli"
       ],
-      "responses": [
-        "Évoli est de type Normal."
-      ]
+      "responses": ["Évoli est de type Normal."]
     },
     {
       "tag": "aquali",
@@ -1604,9 +1428,7 @@
         "Aquali est de quel type ?",
         "Type d'Aquali"
       ],
-      "responses": [
-        "Aquali est de type Eau."
-      ]
+      "responses": ["Aquali est de type Eau."]
     },
     {
       "tag": "voltali",
@@ -1616,9 +1438,7 @@
         "Voltali est de quel type ?",
         "Type de Voltali"
       ],
-      "responses": [
-        "Voltali est de type Électrik."
-      ]
+      "responses": ["Voltali est de type Électrik."]
     },
     {
       "tag": "pyroli",
@@ -1628,9 +1448,7 @@
         "Pyroli est de quel type ?",
         "Type de Pyroli"
       ],
-      "responses": [
-        "Pyroli est de type Feu."
-      ]
+      "responses": ["Pyroli est de type Feu."]
     },
     {
       "tag": "porygon",
@@ -1640,9 +1458,7 @@
         "Porygon est de quel type ?",
         "Type de Porygon"
       ],
-      "responses": [
-        "Porygon est de type Normal."
-      ]
+      "responses": ["Porygon est de type Normal."]
     },
     {
       "tag": "amonita",
@@ -1652,9 +1468,7 @@
         "Amonita est de quel type ?",
         "Type d'Amonita"
       ],
-      "responses": [
-        "Amonita est de type Roche et Eau."
-      ]
+      "responses": ["Amonita est de type Roche et Eau."]
     },
     {
       "tag": "amonistar",
@@ -1664,9 +1478,7 @@
         "Amonistar est de quel type ?",
         "Type d'Amonistar"
       ],
-      "responses": [
-        "Amonistar est de type Roche et Eau."
-      ]
+      "responses": ["Amonistar est de type Roche et Eau."]
     },
     {
       "tag": "kabuto",
@@ -1676,9 +1488,7 @@
         "Kabuto est de quel type ?",
         "Type de Kabuto"
       ],
-      "responses": [
-        "Kabuto est de type Roche et Eau."
-      ]
+      "responses": ["Kabuto est de type Roche et Eau."]
     },
     {
       "tag": "kabutops",
@@ -1688,9 +1498,7 @@
         "Kabutops est de quel type ?",
         "Type de Kabutops"
       ],
-      "responses": [
-        "Kabutops est de type Roche et Eau."
-      ]
+      "responses": ["Kabutops est de type Roche et Eau."]
     },
     {
       "tag": "ptéra",
@@ -1700,9 +1508,7 @@
         "Ptéra est de quel type ?",
         "Type de Ptéra"
       ],
-      "responses": [
-        "Ptéra est de type Roche et Vol."
-      ]
+      "responses": ["Ptéra est de type Roche et Vol."]
     },
     {
       "tag": "ronflex",
@@ -1712,9 +1518,7 @@
         "Ronflex est de quel type ?",
         "Type de Ronflex"
       ],
-      "responses": [
-        "Ronflex est de type Normal."
-      ]
+      "responses": ["Ronflex est de type Normal."]
     },
     {
       "tag": "artikodin",
@@ -1724,9 +1528,7 @@
         "Artikodin est de quel type ?",
         "Type d'Artikodin"
       ],
-      "responses": [
-        "Artikodin est de type Glace et Vol."
-      ]
+      "responses": ["Artikodin est de type Glace et Vol."]
     },
     {
       "tag": "électhor",
@@ -1736,9 +1538,7 @@
         "Électhor est de quel type ?",
         "Type d'Électhor"
       ],
-      "responses": [
-        "Électhor est de type Électrik et Vol."
-      ]
+      "responses": ["Électhor est de type Électrik et Vol."]
     },
     {
       "tag": "sulfura",
@@ -1748,9 +1548,7 @@
         "Sulfura est de quel type ?",
         "Type de Sulfura"
       ],
-      "responses": [
-        "Sulfura est de type Feu et Vol."
-      ]
+      "responses": ["Sulfura est de type Feu et Vol."]
     },
     {
       "tag": "minidraco",
@@ -1760,9 +1558,7 @@
         "Minidraco est de quel type ?",
         "Type de Minidraco"
       ],
-      "responses": [
-        "Minidraco est de type Dragon."
-      ]
+      "responses": ["Minidraco est de type Dragon."]
     },
     {
       "tag": "draco",
@@ -1772,9 +1568,7 @@
         "Draco est de quel type ?",
         "Type de Draco"
       ],
-      "responses": [
-        "Draco est de type Dragon."
-      ]
+      "responses": ["Draco est de type Dragon."]
     },
     {
       "tag": "dracolosse",
@@ -1784,9 +1578,7 @@
         "Dracolosse est de quel type ?",
         "Type de Dracolosse"
       ],
-      "responses": [
-        "Dracolosse est de type Dragon et Vol."
-      ]
+      "responses": ["Dracolosse est de type Dragon et Vol."]
     },
     {
       "tag": "mewtwo",
@@ -1796,9 +1588,7 @@
         "Mewtwo est de quel type ?",
         "Type de Mewtwo"
       ],
-      "responses": [
-        "Mewtwo est de type Psy."
-      ]
+      "responses": ["Mewtwo est de type Psy."]
     },
     {
       "tag": "mew",
@@ -1808,9 +1598,7 @@
         "Mew est de quel type ?",
         "Type de Mew"
       ],
-      "responses": [
-        "Mew est de type Psy."
-      ]
+      "responses": ["Mew est de type Psy."]
     }
   ]
 }

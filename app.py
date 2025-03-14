@@ -42,10 +42,12 @@ try:
     with open('data/intents.json') as file:
         intents = json.load(file)
 
-    words = pickle.load(open('words.pkl', 'rb'))
-    classes = pickle.load(open('classes.pkl', 'rb'))
+    words = pickle.load(open('model/words.pkl', 'rb'))
+    classes = pickle.load(open('model/classes.pkl', 'rb'))
     model = load_model('model/chatbot_model.keras')
     
+    logger.info(f"Nombre de mots dans le vocabulaire: {len(words)}")
+    logger.info(f"Nombre de classes: {len(classes)}")
     logger.info("Toutes les ressources ont été chargées avec succès")
 except Exception as e:
     logger.error(f"Erreur lors du chargement des ressources: {str(e)}")
@@ -56,14 +58,27 @@ def clean_up_sentence(sentence):
         sentence_words = nltk.word_tokenize(sentence)
         sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
         logger.info(f"Mots traités : {sentence_words}")
-        return [1 if w in sentence_words else 0 for w in words]
+        return sentence_words
     except Exception as e:
         logger.error(f"Erreur dans clean_up_sentence: {str(e)}")
         raise
 
+def bag_of_words(sentence_words):
+    try:
+        bag = [0] * len(words)
+        for w in sentence_words:
+            for i, word in enumerate(words):
+                if word == w:
+                    bag[i] = 1
+        return np.array(bag)
+    except Exception as e:
+        logger.error(f"Erreur dans bag_of_words: {str(e)}")
+        raise
+
 def predict_class(sentence):
     try:
-        bow = np.array(clean_up_sentence(sentence))
+        sentence_words = clean_up_sentence(sentence)
+        bow = bag_of_words(sentence_words)
         res = model.predict(np.array([bow]))[0]
         ERROR_THRESHOLD = 0.25
         results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
